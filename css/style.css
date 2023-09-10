@@ -11,7 +11,7 @@ body{
 
 .nav{
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(15, 15, 15, 0.05);
 }
 .nav-container{
     align-items: center;
@@ -66,6 +66,102 @@ a:hover{
   color: #F61C0D;
 }
 /* header or nav section styles here ends */
+
+/* _______________________________________________________________________________________________________________ */
+
+/* ----------------------------------G.O.A.T SECTION STYLES HERE STARTS------------------- */
+.goat-section{
+    background: #FFF;
+    
+}
+
+.goat-container{
+    
+    align-items: center;
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.goat-container-text{
+   width: 50%;
+}
+.goat-container h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.goat-container h1{
+    text-align: center;
+    font-size: 75px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+}
+.goat-container-text a{
+    color: #534C64;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 110px;
+    text-decoration: none;
+   
+}
+
+
+.goat-container-img {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.fa-solid{
+    width: 24px;
+    height: 24px;
+    color: #F948B2;
+}
+.btn-goat{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-sign{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: none;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.btn-go{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: none;
+    background: #4EC5F7;
+}
+
+
+/* ----------------------------------G.O.A.T SECTION STYLES HERE ends------------------- */
 
 
 

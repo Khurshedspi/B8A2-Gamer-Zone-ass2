@@ -1,9 +1,19 @@
 /* For Medium or tablet devices reponsive styles starts */
 @media  screen and (max-width:800px) {
     /*---------------- Navbar section starts ------------*/
+    
+    .nav{
+        background-color: white;
+        box-shadow: none;
+    }
+
+
     .nav-container{
      flex-direction: column;
- 
+     justify-content: space-between;
+     align-items: center;
+     margin-left: 200px;
+        
     }
  
      .logo-img{
@@ -26,6 +36,35 @@
      border-radius: 8px;
      background: rgba(11, 2, 35, 0.10);
  }
+
+ /* --------------------------For goat section responsive styles starts------------------------- */
+
+ .goat-container{
+    flex-direction: column-reverse;
+}
+.goat-container-text{
+    width: 100%;
+    margin-top: 90px;
+    margin-left: 20px;
+    text-align: center;
+}
+.goat-container-text a{
+    color: #534C64;
+    font-size: 20px;
+    margin: 0px 60px 0px 30px;  
+}
+
+.btn-goat{
+    margin-left: 20px;
+ 
+}
+.goat-container-img{
+    width: 100%;
+}
+
+/* --------------------------for goat section responsive styles  ends------------------------- */
+
+
  /* ----------------------Navbar section end -----------------*/
  }
 
@@ -40,9 +79,14 @@
 @media  screen and (max-width: 400px) {
 /* ----------------------Navbar section starts -----------------*/
 
-   .nav-container{
-    flex-direction: column;
 
+.nav{
+    background-color: white;
+    box-shadow: none;
+}
+.nav-container{
+    flex-direction: column;
+    margin-left: 320px;
    }
 
     .logo-img{
@@ -52,10 +96,11 @@
 
    .nav-items-container{
     flex-direction: column;
-    width: 100%;
+     width: auto; 
    }
    .nav-items-container a{
     margin-top: 30px;
+    width: auto;
    }
    a:hover{
     text-align: center;
@@ -66,5 +111,35 @@
     background: rgba(11, 2, 35, 0.10);
 }
 /* ----------------------Navbar section end -----------------*/
+
+
+
+/* ---------------------------for goat section responsive styles starts here-------------------------- */
+
+.goat-container{
+    flex-direction: column-reverse;
+}
+.goat-container-text{
+    width: 100%;
+    margin-top: 90px;
+    margin-left: 320px;
+    text-align: center;
+}
+.goat-container-text a{
+    color: #534C64;
+    font-size: 20px;
+    margin: 0px 60px 0px 30px;  
+}
+
+.btn-goat{
+    margin-left: 40px;
+ 
+}
+.goat-container-img{
+    width: 100%;
+}
+
+
+/* ---------------------------for goat section responsive styles ends here-------------------------- */
 
 }
