@@ -1,0 +1,72 @@
+/* ------------------all shared styles here------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* header or nav section styles here starts */
+
+.nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-container{
+    align-items: center;
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.logo-img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.logo-img img{
+    width: 80px;
+    height: 40px;
+}
+.logo-img p{
+    font-size: 40px;
+    font-weight: 700;
+}
+.gamer-text{
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+a:hover{
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.nav-items-container a .fa-youtube{
+  color: #F61C0D;
+}
+/* header or nav section styles here ends */
+
+
+
+
